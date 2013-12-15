@@ -1,0 +1,8 @@
+C:\Users\alfcas\Documents\SharpDevelop Projects\PaypalAPI-CS\API-TEST\bin\Release\API-TEST.exe
+C:\Users\alfcas\Documents\SharpDevelop Projects\PaypalAPI-CS\API-TEST\bin\Release\PaypalAPI.dll
+C:\Users\alfcas\Documents\SharpDevelop Projects\PaypalAPI-CS\API-TEST\obj\Release\API-TEST.csprojResolveAssemblyReference.cache
+C:\Users\alfcas\Documents\SharpDevelop Projects\PaypalAPI-CS\API-TEST\obj\Release\API-TEST.exe
+C:\Users\alfcas\Documents\SharpDevelop Projects\paypal-sample\C#\PaypalAPI-CS\API-TEST\bin\Release\API-TEST.exe
+C:\Users\alfcas\Documents\SharpDevelop Projects\paypal-sample\C#\PaypalAPI-CS\API-TEST\bin\Release\PaypalAPI.dll
+C:\Users\alfcas\Documents\SharpDevelop Projects\paypal-sample\C#\PaypalAPI-CS\API-TEST\obj\Release\API-TEST.csprojResolveAssemblyReference.cache
+C:\Users\alfcas\Documents\SharpDevelop Projects\paypal-sample\C#\PaypalAPI-CS\API-TEST\obj\Release\API-TEST.exe

@@ -1,0 +1,10 @@
+C:\Users\alfcas\Documents\SharpDevelop Projects\paypal-sample-vbnet\Console-Base\AP-Pay-API\PPAPI\bin\Debug\PPAPI.dll
+C:\Users\alfcas\Documents\SharpDevelop Projects\paypal-sample-vbnet\Console-Base\AP-Pay-API\PPAPI\bin\Debug\PPAPI.pdb
+C:\Users\alfcas\Documents\SharpDevelop Projects\paypal-sample-vbnet\Console-Base\AP-Pay-API\PPAPI\obj\Debug\PPAPI.csprojResolveAssemblyReference.cache
+C:\Users\alfcas\Documents\SharpDevelop Projects\paypal-sample-vbnet\Console-Base\AP-Pay-API\PPAPI\obj\Debug\PPAPI.dll
+C:\Users\alfcas\Documents\SharpDevelop Projects\paypal-sample-vbnet\Console-Base\AP-Pay-API\PPAPI\obj\Debug\PPAPI.pdb
+C:\Users\alfcas\Documents\SharpDevelop Projects\PaypalAPI-CS\obj\Debug\PPAPI.csprojResolveAssemblyReference.cache
+C:\Users\alfcas\Documents\SharpDevelop Projects\PaypalAPI-CS\obj\Debug\PPAPI.dll
+C:\Users\alfcas\Documents\SharpDevelop Projects\PaypalAPI-CS\obj\Debug\PPAPI.pdb
+C:\Users\alfcas\Documents\SharpDevelop Projects\PaypalAPI-CS\bin\Debug\PPAPI.dll
+C:\Users\alfcas\Documents\SharpDevelop Projects\PaypalAPI-CS\bin\Debug\PPAPI.pdb

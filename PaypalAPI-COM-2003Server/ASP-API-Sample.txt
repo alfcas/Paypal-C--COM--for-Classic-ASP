@@ -1,0 +1,52 @@
+<%
+ dim strStatus
+ dim strPayKey
+ dim strPayUrl
+ 
+ dim cPaypal
+ Set cPaypal = Server.CreateObject("PaypalAPI.AdaptivePayments")
+ '
+ cPaypal.APIUserID="s1_1267233049_biz_api1.hotmail.com"
+ cPaypal.APIPassword="1267233061"
+ cPaypal.APISignature="AupFS7g3FEMezxo6DzUYh75GAgL.AfIb3IoACaxz8CHNnVmEFvu0BPU1"
+ cPaypal.AplicationID="APP-80W284485P519543T"
+ '
+ cPaypal.UseSandbox=true
+ cPaypal.SetPaymentType "simple"
+'
+'
+ cPaypal.SetCancelUrl Request.Form("cancelUrl")
+ cPaypal.SetReturnUrl Request.Form("returnUrl")
+ cPaypal.SetNotificationUrl "http://prenotacom.arescrs.com/ares/test/paypal/listener/ipn.asp"
+ cPaypal.SetCurrency "USD"
+' cPaypal.SetSenderEmail "byr02_1267640704_per@hotmail.com"
+'-------->
+'  cPaypal.SetSenderEmail Request.Form("clientEmail")
+
+' cPaypal.AddReceiver "s2_1267478028_biz@hotmail.com","150"
+' cPaypal.AddReceiver "slr03_1267641251_biz@hotmail.com","100.00"
+' cPaypal.AddReceiver "slr04_1267641479_biz@hotmail.com","50.00"
+'------->
+ cPaypal.AddReceiver Request.Form("email"), Request.Form("amount")
+
+ strStatus = cPaypal.Pay()
+
+ strPayKey = cPaypal.PayKey()
+ strPayUrl = cPaypal.PayUrl()
+
+ set cPaypal = nothing
+
+ Response.Write("<br><br>pay key: " & strPayKey)
+
+%>
+<html>
+<body>
+<br>
+<br>
+<a href="<%=strPayUrl%>" title="Go to pay" target="_blank">[Clicca se il pagamento non parte automaticamente]</a> 
+<script language="javascript">
+  window.open('<%=strPayUrl%>','_blank');
+</script>
+</body>
+</html>
+

@@ -1,0 +1,6 @@
+C:\Users\alfcas\Documents\SharpDevelop Projects\PaypalAPI-CS\bin\Release\PaypalAPI.dll
+C:\Users\alfcas\Documents\SharpDevelop Projects\PaypalAPI-CS\obj\Release\PaypalAPI.csprojResolveAssemblyReference.cache
+C:\Users\alfcas\Documents\SharpDevelop Projects\PaypalAPI-CS\obj\Release\PaypalAPI.dll
+C:\Users\alfcas\Documents\SharpDevelop Projects\paypal-sample\C#\PaypalAPI-CS\bin\Release\PaypalAPI.dll
+C:\Users\alfcas\Documents\SharpDevelop Projects\paypal-sample\C#\PaypalAPI-CS\obj\Release\PaypalAPI.csprojResolveAssemblyReference.cache
+C:\Users\alfcas\Documents\SharpDevelop Projects\paypal-sample\C#\PaypalAPI-CS\obj\Release\PaypalAPI.dll

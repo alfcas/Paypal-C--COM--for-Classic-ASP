@@ -1,0 +1,67 @@
+
+START: RESVR32 non registra i componenti compilati con .NET
+-----------------------------------------------------------------------------------------------
+
+ERROR
+"regsvr32 file was loaded but the entry-point dllregisterserver "
+
+I have written a DLL in C# (.Net 4 using VS2010). 
+I have ticked the boxes to make it COM visible and register for COM interop. 
+I then saved the DLL and associated files to the c:\Program Files\MyCode directory.
+
+When I run regsvr32 for the DLL (I want to use it in an Excel VBA project), I get the above error message. 
+I am running Windows XP with SP3. 
+I have searched on the other threads with the same problem but have not found anything useful.
+Any thoughts would be appreciated.
+John.
+
+//
+//
+//
+
+I believe what you want is regasm, not regsvr32: http://msdn.microsoft.com/en-us/library/tzat5yw6(v=vs.71).aspx
+If you're building a 32-bit assembly, be sure to run this regasm:
+ C:\Windows\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe 
+If you're building a 64-bit assembly, run this regasm:
+ C:\Windows\Microsoft.NET\Framework64\v4.0.30319\RegAsm.exe
+
+
+//
+//  perfetto, la regisrazione funziona ma abbiamo un errore in runtime:
+//
+
+Server object error 'ASP 0177 : 80070002' 
+ Server.CreateObject Failed 
+
+Hi,
+ i'm trying to run a dll component on my iis server with asp.
+ but i get some errors while running the asp page from the iis server.
+
+//
+//
+//
+
+try putting the DLL in the same location as asp.dll file, by default
+ at C:\WINDOWS\system32\inetsrv
+
+( you might also find something useful here:
+http://social.msdn.microsoft.com/For...-75e75cef681c/ )
+
+//
+//
+//
+
+thx for your information, when i place the component here:
+ C:\WINDOWS\system32\inetsrv
+ and register, then the component is working fine, so it has to do something with security. 
+Do you know where to set this security on the foder?
+
+//
+//
+//
+
+Non funziona ancora ..
+mancava in registrazione il flag  /Codebase 
+adesso funziona!
+
+(proviamo se spostato in system32 funziona)
